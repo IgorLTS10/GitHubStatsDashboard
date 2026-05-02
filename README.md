@@ -8,7 +8,7 @@
 
 Enter a GitHub username → Get an instant visual breakdown of their coding life.
 
-[🌐 **Live Demo**](https://github-stats-dashboard.vercel.app) · [🐛 Report Bug](../../issues) · [✨ Request Feature](../../issues)
+[🌐 **Live Demo**](https://git-hub-stats-dashboard.vercel.app/) · [🐛 Report Bug](../../issues) · [✨ Request Feature](../../issues)
 
 ---
 
