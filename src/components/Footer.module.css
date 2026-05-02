@@ -1,0 +1,44 @@
+.footer {
+  border-top: 1px solid var(--border-subtle);
+  padding: var(--space-2xl) 0;
+  margin-top: var(--space-3xl);
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+  text-align: center;
+}
+
+.text {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.heart {
+  color: var(--accent-pink);
+  display: inline-block;
+  animation: heartbeat 1.5s ease-in-out infinite;
+}
+
+@keyframes heartbeat {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+
+.link {
+  color: var(--accent-purple);
+  font-weight: 500;
+  transition: color var(--transition-fast);
+}
+
+.link:hover {
+  color: var(--accent-cyan);
+}
+
+.subtext {
+  font-size: 0.75rem;
+  color: var(--text-tertiary);
+  margin-top: var(--space-xs);
+}

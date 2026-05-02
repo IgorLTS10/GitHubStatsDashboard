@@ -1,0 +1,28 @@
+.chartWrapper {
+  width: 100%;
+}
+
+.tooltip {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-sm);
+  padding: 10px 14px;
+}
+
+.tooltipMonth {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.tooltipValue {
+  font-size: 0.9rem;
+  font-weight: 700;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
